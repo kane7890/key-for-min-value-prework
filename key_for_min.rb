@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   minval=0
  # binding.pry
   if name_hash =={}
-    name_hash
+    return nil
   else
   name_hash.each do | key, value|
     if minkey == ""
@@ -19,6 +19,6 @@ def key_for_min_value(name_hash)
       end
     end
   #  binding.pry
+  minkey
   end
-  minval
 end
