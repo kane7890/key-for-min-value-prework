@@ -4,7 +4,7 @@
 
 def key_for_min_value(name_hash)
   minkey=""
-  minval-""
+  minval=0
  # binding.pry
   if name_hash =={}
     name_hash
